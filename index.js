@@ -6,7 +6,7 @@
 */
 
 // Create a string
-var baseString = "Hello this script is all about regular expressions in javascript";
+var baseString = "Hello this script is all about regular expressions in JavaScript";
 
 /**
 * A regular expression can be created using two methods
@@ -37,10 +37,13 @@ console.log("Using literal method: ",regex2.test(baseString));
 * ignorecase(i) - Ignore the case of tbe pattern  
 */
 
-//Using global flag (g)
+// Using global flag (g)
 var regexWithGlobalFlag = new RegExp("scr","g");
 console.log(regexWithGlobalFlag.exec(baseString));
 console.log(regexWithGlobalFlag.exec(baseString));
 console.log(regexWithGlobalFlag.exec(baseString));
 
+// Using the ignorecase flag (i)
+var regexWithIgnoreCaseFlag = /scr/i
+console.log("Using Ignorecase Flag:",regexWithIgnoreCaseFlag.exec(baseString));
 
