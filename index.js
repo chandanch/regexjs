@@ -17,8 +17,8 @@ var baseString = "Hello this script is all about regular expressions in javascri
 // 1. Constructor method
 var regex1 = new RegExp('is');
 // check if the pattern is present in the baseString
-console.log(regex1.test(baseString)); // returns true
+console.log("Using Contructor method",regex1.test(baseString)); // returns true
 
 // 2. Literal method
 var regex2 = /ll/;
-console.log(regex2.test(baseString));
+console.log("Using literal method: ",regex2.test(baseString));
