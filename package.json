@@ -1,0 +1,27 @@
+{
+  "name": "regjs",
+  "version": "1.0.0",
+  "description": "Regular expressions in javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "none"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandanch/regexjs.git"
+  },
+  "keywords": [
+    "Regex",
+    "JS",
+    "regexjs"
+  ],
+  "author": "Chandan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/chandanch/regexjs/issues"
+  },
+  "homepage": "https://github.com/chandanch/regexjs#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.11"
+  }
+}
