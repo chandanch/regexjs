@@ -41,6 +41,6 @@ console.log("Using literal method: ",regex2.test(baseString));
 var regexWithGlobalFlag = new RegExp("scr","g");
 console.log(regexWithGlobalFlag.exec(baseString));
 console.log(regexWithGlobalFlag.exec(baseString));
-
+console.log(regexWithGlobalFlag.exec(baseString));
 
 
